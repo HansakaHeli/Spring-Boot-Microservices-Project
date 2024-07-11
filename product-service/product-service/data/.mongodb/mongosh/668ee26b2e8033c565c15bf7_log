@@ -21,3 +21,4 @@
 {"t":{"$date":"2024-07-10T19:36:12.295Z"},"s":"I","c":"MONGOSH","id":1000000009,"ctx":"shell-api","msg":"Used \"show\" command","attr":{"method":"show collections"}}
 {"t":{"$date":"2024-07-10T19:36:21.865Z"},"s":"I","c":"MONGOSH","id":1000000007,"ctx":"repl","msg":"Evaluating input","attr":{"input":"db.product.find()"}}
 {"t":{"$date":"2024-07-10T19:36:21.927Z"},"s":"I","c":"MONGOSH","id":1000000011,"ctx":"shell-api","msg":"Performed API call","attr":{"method":"find","class":"Collection","db":"product-service","coll":"product","arguments":{"options":{}}}}
+{"t":{"$date":"2024-07-10T20:46:20.206Z"},"s":"I","c":"MONGOSH","id":1000000045,"ctx":"analytics","msg":"Flushed outstanding data","attr":{"flushError":"Trying to persist throttle state before userId is set","flushDuration":2}}
